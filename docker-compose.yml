@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  app:
+    image: php:7.4-cli
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: tail -f /dev/nullx
+    user: "1000:1000"
