@@ -9,14 +9,14 @@ Class Greeter {
     }
 
     public function sayHello() {
-        return  'hello, my name is' . $this->name . '\n';
+        return  'hello, my name is ' . $this->name;
     }
 }
 
 $mariano = new Greeter('Mariano');
-echo $mariano->sayHello();
 $matu = new Greeter('Matu');
-echo $matu->sayHello();
+echo $mariano->sayHello() . "\n \n";
+echo $matu->sayHello(). "\n \n";
 
 /*
  *  What's the output in the command line for this code?

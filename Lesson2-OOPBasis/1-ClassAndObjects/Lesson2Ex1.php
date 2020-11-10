@@ -8,7 +8,7 @@ class Mariano {
 }
 
 $mariano = new Mariano();
-echo $mariano->sayHello();
+echo $mariano->sayHello() . "\n \n";
 
 /*
  *  What is the output in the command line for this code ?
