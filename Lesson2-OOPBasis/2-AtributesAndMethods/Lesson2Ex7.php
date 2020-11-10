@@ -42,13 +42,19 @@ class Citizen
 
 $citizen = new Citizen("1234", "Mariano", "Grimaux");
 echo $citizen->getDni();
+echo "\n";
 echo $citizen->getFirstName();
+echo "\n";
 echo $citizen->getLastName();
-
-echo '** Change **\n';
+echo "\n";
+echo "** Changing values  **\n";
 $citizen->setFirstName("Pepe");
 $citizen->setLastName("Lui");
 echo $citizen->getDni();
+echo "\n";
 echo $citizen->getFirstName();
+echo "\n";
 echo $citizen->getLastName();
+echo "\n \n";
+
 

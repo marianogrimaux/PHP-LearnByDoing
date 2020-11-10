@@ -1,51 +1,29 @@
 <?php
+
 class Greeter {
 
+    private static $prefix = 'Hello, my name is ';
     private $name;
-    private $context;
 
-    public function __construct(string $name, $context)
+    public function __construct(string $name)
     {
         $this->name = $name;
-        $this->context = $context;
     }
 
-    public function setContext($context)
+    public function getName()
     {
-        $this->context = $context;
+        return $this->name;
     }
 
-    private function giveInformalGreetings()
+    public function sayHello(string $greeterName = null)
     {
-        return "Hi!, my name is " . $this->name;
-    }
-
-    private function giveFormalGreetings()
-    {
-        return "Hello, my name is " . $this->name;
-    }
-
-    public function sayHello()
-    {
-        if ($this->context == 'work')
-        {
-            $greetings = $this->giveFormalGreetings();
-        } else {
-            $greetings = $this->giveInformalGreetings();
-        }
-        return $greetings;
+        return $greeterName ? self::$prefix  . $this->name . ' , nice to meet you ' . $greeterName :
+            self::$prefix . $this->name;
     }
 }
-$greeter = new Greeter("Mariano", "work");
-echo $greeter->sayHello();
-$greeter->setContext("friends");
-echo $greeter->sayHello();
 
-
-/*
- *
- * When changing the context from work to friends, what happened ?
- *
- * Your answer:
- *
- */
+$mariano = new Greeter('Mariano');
+echo $mariano->sayHello();
+$matu = new Greeter('Matu');
+echo $mariano->sayHello($matu->getName());
+echo "\n \n";

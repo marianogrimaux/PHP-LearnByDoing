@@ -2,7 +2,7 @@
 
 class Greeter {
 
-    private static $prefix = 'Hello, my name is';
+    private static $prefix = 'Hello, my name is ';
     private $name;
 
     public function __construct(string $name) {
@@ -10,13 +10,13 @@ class Greeter {
     }
 
     public function sayHello() {
-        return self::$prefix . $this->name . '\n';
+        return self::$prefix . $this->name;
     }
 }
 $mariano = new Greeter('Mariano');
-echo $mariano->sayHello();
+echo $mariano->sayHello() . "\n \n";
 $matu = new Greeter('Matu');
-echo $matu->sayHello();
+echo $matu->sayHello() . "\n \n";
 
 /*
  * Homework

@@ -105,8 +105,8 @@ class Greeter {
 
     public function sayHello(string $greeterName = null)
     {
-       return $greeterName ? self::$prefix  . $this->name . ' , nice to meet you ' . $greeterName .' \n' :
-       self::$prefix . $this->name . '\n';
+       return $greeterName ? self::$prefix  . $this->name . ' , nice to meet you ' . $greeterName:
+       self::$prefix . $this->name;
     }
 }
 
