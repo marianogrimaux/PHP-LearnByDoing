@@ -198,9 +198,11 @@ For instance:
     print $testPassed ? "Pass" : "Fail";
 
 
-####Switch case
+#### Switch case
 
 Switch case statements is used to perform different acctions whe having many conditions. 
+
+##### Sintax
 
     switch (n) {
       case label1:
@@ -215,26 +217,129 @@ Switch case statements is used to perform different acctions whe having many con
         ...
       default:
         code to be executed if n is different from all labels;
-}
+      }
 
-##### Loops
+**Notes:**
+1. break is necessary to avoid the evaluation of the following cases.
+2. if you use a return statement, break is not needed.
+3. "default" case will be executed if non of the conditions above where true.
 
-##### Errors
 
-### Classes
+#### Loops
+##### While 
 
-##### Class Definition
+sintax:
 
-##### Methods & functions
+    while (Condition == true) {
+      code to be executed;
+    }
 
-##### Type Hinting
+##### Do while
+    
+    do {
+      code to be executed;
+    } while (condition == true);
+    
+##### For loop
 
-##### Return Types
+     for (counter; counterCondition; counterIncrement) {
+       code to be executed for each iteration;
+     }
+     
+##### Foreach loop
 
-##### Static methods
+    foreach ($array as $value) {
+      code to be executed;
+    } 
 
-##### Interfaces
+
+### Functions and Procedures
+
+#### Syntax
+
+##### Basic 
+
+In php all functions and procedures are declared the same.
+
+    function test() : returnType
+    {
+        // Your code
+        return result;
+    }
+    
+1. Start by using the keyword function.
+2. Function names follow the same rules as other labels in PHP.
+3. Parenthesis always must be added after the funciton name.   
+
+##### Functions and procedures difference 
+
+In order to make a difference between a procedure or a function, in php the return type can be used ( PHP version >=7.2)
+
+    function test(typehint $arg1, typheInt $arg2...) : int
+    {
+        // Your code for a function returning an integer.
+        return result;
+    }
+
+    function test(typehint $arg1, typheInt $arg2...) : void
+    {
+        // Your code for a function returning an integer.
+        // for a function that returns no result.
+    }
+
+
+##### Type hinting parameters
+
+Parameters can be type hinted by indicated the type of the param.
+
+    function test(int $a, bool $b, string c, array $d, Object $e) : int
+    {
+        // Your code for a function returning an integer.
+        return result;
+    }
+
+##### Type hinting return types
+
+In case of functions, return types can also be specified. This is done by adding ": returnType".
+
+    function test(int $a, bool $b, string c) : int
+    {
+        // Your code for a function returning an integer.
+        return result;
+    }
+
+### Errors
+
+An error occur when there's something wrong in the code. Php has 4 types of errors.
+
+1. Warning Error.
+2. Notice Error.
+3. Parse Error. 
+4. Fatal Error.
+
+#### Waring Error
+
+Warning errors wont cause PHP to stop running, they warn about a problem that can cause errors in the execution.
+
+#### Notice Error
+
+Notice errors are similar to warning errors, they wont stop the execution. They are minor errors, and notice the user that 
+there might be something wrong in the code.
+
+#### Parse Error
+
+Parse errors are syntax errors, the script wont execute if detected.
+
+#### Fatal Error
+
+Fatal errors are critical errors, when present the will stop the execution.
 
 ### Exceptions
 
-### SPL
+Exceptions were introduced in PHP 5. Unlike errors, the exceptions can be catch and your code can actually do something 
+with them. Exceptions are used very often in object oriented programming.
+
+
+## Homework
+
+Complete the different exercies in the PHP files in this folder.
