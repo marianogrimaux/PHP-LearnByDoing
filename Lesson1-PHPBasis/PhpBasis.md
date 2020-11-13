@@ -1,6 +1,5 @@
 # PHP Basis
 
-
 ## PHP Language
 
 PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open source general-purpose scripting language 
@@ -15,9 +14,9 @@ reference https://www.php.net/manual/en/intro-whatis.php
 
 If you want to know more about the history of php please visit:
 
-### Cheat-sheet
+## Cheat-sheet
 
-#### Php Tags
+### Php Tags
 
 When PHP parses a file, it looks for opening and closing tags, which are <?php and ?> which tell PHP to start and stop 
 interpreting the code between them.
@@ -46,40 +45,38 @@ Close tag: ```?> ```
 
 You'll find that all the examples in this course won't include the closing tag.
 
-#### Comments 
+### Comments 
 
 As seen in the previous example you can comment your code, this will 
 avoid PHP of trying to execute those lines. 
 
 Comments in PHP can be done  in several Ways
 
-- Line comment:
-    ```php 
-     // This is a single line commnet in php. Never forget the // :)
-   ```
+#### Line comment:
+```php
+ // This is a single line commnet in php. Never forget the // :)
+ ```
+#### Block comment:
 
-- Block comment:
-
-    ```php
-       /* 
-          This is  A block
-          comment in PHP 
-       */
-    ```
+```php
+   /* 
+      This is  A block
+      comment in PHP 
+   */
+```
   
-- PHP doc comment
+### PHP doc comment
 
-    ```php     
-        /**
-         * This is a PHP DOC comment, note that it starts with /** instead of /*
-         *
-         * This is just a example, you can read more about of php doc in https://docs.phpdoc.org/
-         *
-         * @return type Description.
-        */
-    ```
-
-#### Variables
+```php
+    /**
+     * This is a PHP DOC comment, note that it starts with /** instead of /*
+     *
+     * This is just a example, you can read more about of php doc in https://docs.phpdoc.org/
+     *
+     * @return type Description.
+    */
+```
+### Variables
 
 All variables in php start with **$** sign followed by it's name.
 
@@ -97,55 +94,56 @@ There are some rules for variable declaration:
 references (in other words, "becomes an alias for" or "points to") the original variable. Changes to the new variable
  affect the original, and vice versa.
     
-#### Strings
+### Strings
 
 Strings are sequence of characters. In order to assign a string to a variable:
-   
-    $var = "foo"  
-    
+```php
+    $var = "foo"; 
+```
 Or 
-      
-    $var = 'foo';
-    
-Single quotes VS double quotes
+```php
+    $var = 'foo'; 
+```
+####Single quotes VS double quotes
 
 If using single quotes, the string will be shown as is, this means that you cannot introduce variables directly to the 
 string. With double quotes, you can put varibles in the string sourrend by curly braces and they will be evaluated.
 
-Examples:
+**Examples:**
 
 Show variables in single quotes:
-   
+```php
     $var= "pepe";
     //  In this case, we have to concatenate the string with .
     echo 'When someone name is Jose, you can call him' . $var;
     // In this case, we can surround the with curly braces the variable
     // and avoid the concat.
     echo "When someone name is Jose, you can call him {$var}";
-
-#### Arrays
+```
+### Arrays
 
 Arrays in PHP can be constructed by the array() consstructor, or declared with [].
 
-##### Syntax
-
+#### Syntax
+```php
     $foo = array("bar", ":)");
-    
+```
 or
-
+```php
     $foo = ["bar", ":)"];
-    
-if a key is not provided, then php will assign automatically a number for that, starting with 0 and corresponding to the 
+```
+
+If a key is not provided, then php will assign automatically a number for that, starting with 0 and corresponding to the 
 index of the element.
 For the examples above, both arrays will have the following internal structure.
-
+```
     array(2) {
       [0]=>
       string(1) "bar"
       [1]=>
       string(1) ":)"
     }
-
+```
 ##### Syntax for associative arrays
 
 You can assign a key to the arrays, in order to do so: $key => $value notation will be needed.
@@ -162,7 +160,6 @@ For the examples above, both arrays will have the following internal structure.
     
 
 You can explore more about arrays here : https://www.php.net/manual/en/language.types.array.php
-
 ### Conditional statements
 
 #### if else statement
@@ -193,16 +190,16 @@ You can explore more about arrays here : https://www.php.net/manual/en/language.
 Ternary operators often are use for simple evaluation,  and there is a single operation when the condition met or not. 
 
 For instance:
-    
+```php
     $testPassed = true;
     print $testPassed ? "Pass" : "Fail";
-
+```
 
 #### Switch case
 
 Switch case statements is used to perform different acctions whe having many conditions. 
 
-##### Sintax
+##### Syntax
 
     switch (n) {
       case label1:
@@ -228,7 +225,7 @@ Switch case statements is used to perform different acctions whe having many con
 #### Loops
 ##### While 
 
-sintax:
+syntax:
 
     while (Condition == true) {
       code to be executed;
@@ -251,8 +248,6 @@ sintax:
     foreach ($array as $value) {
       code to be executed;
     } 
-
-
 ### Functions and Procedures
 
 #### Syntax
@@ -266,7 +261,7 @@ In php all functions and procedures are declared the same.
         // Your code
         return result;
     }
-    
+
 1. Start by using the keyword function.
 2. Function names follow the same rules as other labels in PHP.
 3. Parenthesis always must be added after the funciton name.   
@@ -307,7 +302,6 @@ In case of functions, return types can also be specified. This is done by adding
         // Your code for a function returning an integer.
         return result;
     }
-
 ### Errors
 
 An error occur when there's something wrong in the code. Php has 4 types of errors.
@@ -333,13 +327,10 @@ Parse errors are syntax errors, the script wont execute if detected.
 #### Fatal Error
 
 Fatal errors are critical errors, when present the will stop the execution.
-
 ### Exceptions
 
 Exceptions were introduced in PHP 5. Unlike errors, the exceptions can be catch and your code can actually do something 
 with them. Exceptions are used very often in object oriented programming.
-
-
 ## Homework
 
 Complete the different exercies in the PHP files in this folder.
