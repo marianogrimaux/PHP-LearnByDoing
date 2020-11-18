@@ -36,6 +36,7 @@ class Greeter {
         return $greetings;
     }
 }
+
 $greeter = new Greeter("Mariano", "work");
 echo $greeter->sayHello();
 echo "\n";
