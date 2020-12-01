@@ -24,9 +24,7 @@ class FileLogger implements LoggerInterface {
     public function logAction(string $action)
     {
         /*
-         * 1- Opens the file in write mode, if it does not exist it creates it.
-         * 2- writes the line
-         * 3- closes the file
+         * Open the file actionLog and add a new line with the log. 
          */
         file_put_contents($this->fileLocation, $action . PHP_EOL ,FILE_APPEND);
     }
