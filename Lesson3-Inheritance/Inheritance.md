@@ -76,7 +76,7 @@ class Human extends Mammal {
 
 }
 ```
-One important keyword appeared in the example avobe: **extends** . 
+One important keyword appeared in the example above: **extends** . 
 
 The extends keyword is used to indicate that our classes are actually, a sub-class. When creating a subclass, it will
 have access to the behaviour and methods of its super class.
@@ -185,14 +185,3 @@ echo $cube->getArea() ."\n";
 
 >Notice: Square defines a constructor, but Cube doesn't. 
 >when creating a Cube, it's constructor (empty) and parent::__construct will be executed. 
-
-
-
-
-
-
-
-
-
-
-

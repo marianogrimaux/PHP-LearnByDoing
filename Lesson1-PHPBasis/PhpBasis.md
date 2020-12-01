@@ -10,9 +10,8 @@ HTML which is then sent to the client. The client would receive the results of r
 what the underlying code was. You can even configure your web server to process all your HTML files with PHP, and then 
 there's really no way that users can tell what you have up your sleeve.
 
-reference https://www.php.net/manual/en/intro-whatis.php
-
-If you want to know more about the history of php please visit:
+> If you want to know more about the history of php please visit:
+> https://www.php.net/manual/en/intro-whatis.php
 
 ## Cheat-sheet
 
@@ -21,7 +20,8 @@ If you want to know more about the history of php please visit:
 When PHP parses a file, it looks for opening and closing tags, which are <?php and ?> which tell PHP to start and stop 
 interpreting the code between them.
 
-Reference https://www.php.net/manual/en/language.basic-syntax.phptags.php
+> For a more detailed description about PHP tags and how they work please visit:
+> https://www.php.net/manual/en/language.basic-syntax.phptags.php
 
 Opening tag: ``` <?php```
 
@@ -35,7 +35,7 @@ Close tag: ```?> ```
 ?>
 ```
 
-> From php Doc: 
+> From php doc: 
 >
 >https://www.php.net/manual/en/language.basic-syntax.instruction-separation.php
 >
@@ -157,9 +157,9 @@ or
 For the examples above, both arrays will have the following internal structure.
 
     array(2) { ["key1"]=> string(3) "bar" ["key2"]=> string(2) ":)" }
-    
-
-You can explore more about arrays here : https://www.php.net/manual/en/language.types.array.php
+ 
+> You can explore more about arrays here: 
+> https://www.php.net/manual/en/language.types.array.php
 ### Conditional statements
 
 #### if else statement
@@ -183,7 +183,7 @@ You can explore more about arrays here : https://www.php.net/manual/en/language.
 
 #### Ternary operators
 
-**Syntax:**
+##### Syntax:
  	   
     (Condition) ? ( Statement for condition true ) : (statement for condition false);
     
@@ -216,34 +216,31 @@ Switch case statements is used to perform different acctions whe having many con
         code to be executed if n is different from all labels;
       }
 
-**Notes:**
+#####Notes:
 1. break is necessary to avoid the evaluation of the following cases.
 2. if you use a return statement, break is not needed.
 3. "default" case will be executed if non of the conditions above where true.
 
 
-#### Loops
-##### While 
-
-syntax:
-
+### Loops
+#### While 
     while (Condition == true) {
       code to be executed;
     }
 
-##### Do while
+####Do while
     
     do {
       code to be executed;
     } while (condition == true);
     
-##### For loop
+#### For loop
 
      for (counter; counterCondition; counterIncrement) {
        code to be executed for each iteration;
      }
      
-##### Foreach loop
+#### Foreach loop
 
     foreach ($array as $value) {
       code to be executed;
@@ -312,25 +309,21 @@ An error occur when there's something wrong in the code. Php has 4 types of erro
 4. Fatal Error.
 
 #### Waring Error
-
 Warning errors wont cause PHP to stop running, they warn about a problem that can cause errors in the execution.
 
 #### Notice Error
-
 Notice errors are similar to warning errors, they wont stop the execution. They are minor errors, and notice the user that 
 there might be something wrong in the code.
 
 #### Parse Error
-
 Parse errors are syntax errors, the script wont execute if detected.
 
 #### Fatal Error
-
 Fatal errors are critical errors, when present the will stop the execution.
-### Exceptions
 
+### Exceptions
 Exceptions were introduced in PHP 5. Unlike errors, the exceptions can be catch and your code can actually do something 
 with them. Exceptions are used very often in object oriented programming.
-## Homework
 
+## Homework
 Complete the different exercies in the PHP files in this folder.
