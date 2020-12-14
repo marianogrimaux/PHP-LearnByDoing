@@ -61,7 +61,7 @@ In our previews examples we defined the instance variable $name, that had differ
 the  class Greeter.
 
 
-####Access
+#### Access
 There are three different levels of access, each one of them grants different access levels to the variables.
 
 * **Public**: Any class can refer to the field.
@@ -120,7 +120,7 @@ Further more, you can't change your DNI number and you decide if you want to pro
 is asking for it.
 
 
-##Homework
+## Homework
 
 Complete the questions in the PHP file for this lesson, as always commit  them in your fork and push the changes.
 

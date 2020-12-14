@@ -1,4 +1,4 @@
-#Methods
+# Methods
 
 Methods will define the behaviour of your classes: What are they meant to do.
 
@@ -31,7 +31,7 @@ Remember the first line of our definition of Encapsulation:
 **Encapsulation refers to the bundling of data with the methods that operate on that data**
 
 
-####Access
+#### Access
 
 There are three different levels of access, each one of them grants different access levels to methods.
 
@@ -45,7 +45,7 @@ and it's actually using it in SayHello method as $this->name.
 
 #### Getters and Setters
 
-#####Getters
+##### Getters
 
 Getters are used to return values. The most simple ones, will just return the value for an attribute, others can execute 
 a more complex calculation and return it's output.
@@ -116,16 +116,14 @@ $matu = new Greeter('Matu');
 echo $mariano->sayHello($matu->getName());
 ```
 
-#####Setters
+##### Setters
 
-Setters are meant to assign new values to the attribute in runtime, if we think about it, they allow us change the state 
-of the object. 
+Setters are meant to assign new values to the attribute in runtime, if we think about it, they allow us change the state of the object. 
 
-It's important for you to know that not all the attributes are meant to have a setter, there are things that 
-you don't to change after the instanciation of the object. In order to go deeper with this concept, lets get back to our
-Citizen example.
+It's important for you to know that not all the attributes must have a setter, there are things that 
+you don't want to change after the instantiation of the object. In order to go deeper with this concept, let's get back to our Citizen's example.
 
-Again, thinkin about the real world we can undertand how Citizens attributes can change in their lives.
+Again, thinking about the real world we can undertand how Citizens attributes can change in their lives.
 
 - A citizen can change it's name.
 - A citizen can change it's last name.
