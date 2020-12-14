@@ -1,4 +1,4 @@
-#Interfaces
+# Interfaces
 
 Interfaces allow us to specify the behavior that must be implemented by classes. Think about interfaces as a contract
 that needs to be honored if you want to implement it.
@@ -27,9 +27,9 @@ somehow to implement that behaviour and no, if you think about the nature of int
 
 When working with interfaces you have to think the following:
 
-_I don't care who you actually are, or where do you come form as long as you can do what I need_
+_I don't care who you actually are, or where do you come from as long as you can do what I need_
 
-###Real world example
+### Real world example
 
 Let's suppose that you have to log what's happening in your code and your company decided to have two different loggers
 
@@ -93,4 +93,10 @@ $greeter->giveGreetings();
 $greeter = new Greeter(new FileLogger(__DIR__ . "/actionLog.log"));
 $greeter->giveGreetings();
 ```
-You can run this code by running :
+You can run this code by issuing this commands:
+
+```
+cd Lesson4-Interfaces
+php Interfaces1.php
+
+```

@@ -216,19 +216,21 @@ Switch case statements is used to perform different acctions whe having many con
         code to be executed if n is different from all labels;
       }
 
-#####Notes:
+##### Notes:
 1. break is necessary to avoid the evaluation of the following cases.
 2. if you use a return statement, break is not needed.
 3. "default" case will be executed if non of the conditions above where true.
 
 
 ### Loops
-#### While 
+
+#### While
+
     while (Condition == true) {
       code to be executed;
     }
 
-####Do while
+#### Do while
     
     do {
       code to be executed;

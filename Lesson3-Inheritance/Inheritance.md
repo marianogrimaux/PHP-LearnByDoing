@@ -1,6 +1,6 @@
-#Inheritance
+# Inheritance
 
-##Introduction
+## Introduction
 
 Inheritance is one of the most important concepts in OOP, It allows developers to provide more powerful designs when 
 modeling a solution.
