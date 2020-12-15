@@ -175,10 +175,10 @@ class Citizen
 ```
 
  
-#####Private methods
+##### Private methods
 
 In order to explain private methods, let's go back to our Greeter example.
-and add some new stuff to hour class. 
+and add some new stuff to our class. 
 
 If you are at work you'll try to keep good manners and use a formal way of speaking, but when you are with your friends
 you are more informal, and even use some slang when saying hello.
