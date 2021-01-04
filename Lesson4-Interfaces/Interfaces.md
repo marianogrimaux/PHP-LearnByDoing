@@ -18,7 +18,7 @@ class Human implements Greeter {
  
     public function sayHello() : string {
         echo "hello";
-    }
+    }    
 }
 ```
 
@@ -92,11 +92,4 @@ $greeter->giveGreetings();
 
 $greeter = new Greeter(new FileLogger(__DIR__ . "/actionLog.log"));
 $greeter->giveGreetings();
-```
-You can run this code by issuing this commands:
-
-```
-cd Lesson4-Interfaces
-php Interfaces1.php
-
 ```
