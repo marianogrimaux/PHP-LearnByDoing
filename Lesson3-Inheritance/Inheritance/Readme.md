@@ -178,8 +178,19 @@ class Cube extends Square {
 
 $cube = new Cube(2);
 echo $cube->getArea() ."\n";
-
 ```
+
+### Class diagram
+
+As now some classes are extending others we have to connect them somehow in our class diagram. This is done by adding an arrow pointing the super class. 
+
+Another thing to keep in mind is to be aware the visibility of the methods and attributes.
+
+<div>
+<img src="Digrams/File_000.png" width="500" height="600"/>
+</div>
+
+
 
  You can find the code in /Practice/InheritanceExample3.php
 
