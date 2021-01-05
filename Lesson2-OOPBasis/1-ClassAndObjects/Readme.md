@@ -141,6 +141,7 @@ Some interesting thing happened with the last change :
 - We added a constructor, and defined that a name is necessary for instantiating a new object.
 - We have two different objects instantiated, that are of the same type. But they have different values in their attributes.
 
+![classDiagram](../Diagrams/classDiagram.png =400x400) 
 
 ### Homework
 
