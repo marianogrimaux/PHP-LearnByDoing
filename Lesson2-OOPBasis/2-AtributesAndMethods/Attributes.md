@@ -8,7 +8,7 @@ There two types of attributes:
 - Class attributes. (Also known as class variables)
 - Instance attributes.  (Also knwon as instance variables).
 
-####Class variables
+## Class variables
 
 The main property of class variables is that they will remain the same across all the instances of the class.
 They don't depend on the instance, and no instance of that class can change its value.
