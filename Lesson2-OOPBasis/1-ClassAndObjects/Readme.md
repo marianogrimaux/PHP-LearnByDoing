@@ -141,7 +141,14 @@ Some interesting thing happened with the last change :
 - We added a constructor, and defined that a name is necessary for instantiating a new object.
 - We have two different objects instantiated, that are of the same type. But they have different values in their attributes.
 
-![classDiagram](../Diagrams/classDiagram.png =400x400) 
+### Class Diagram
+
+Class diagram will allow us to model classes that currently exist in the code, or ones that we want to create. 
+Here is a example about how to represent a class in UML.
+
+<div>
+<img src="../Diagrams/classDiagram.png" width="500" height="300"/>
+</div>
 
 ### Homework
 
