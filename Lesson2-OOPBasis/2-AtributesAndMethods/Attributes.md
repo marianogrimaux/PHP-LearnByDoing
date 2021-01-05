@@ -8,7 +8,7 @@ There two types of attributes:
 - Class attributes. (Also known as class variables)
 - Instance attributes.  (Also knwon as instance variables).
 
-####Class variables
+## Class variables
 
 The main property of class variables is that they will remain the same across all the instances of the class.
 They don't depend on the instance, and no instance of that class can change its value.
@@ -52,7 +52,7 @@ class Greeter {
 Running this code will generate the same output as before, the only difference is that now all the instances
 of Greeter will have access to this variable.
 
-####Instance variables 
+## Instance variables 
 
 Instance variables are defined in the class, the only difference with class variables are that they can have different values 
 accross the instances of the class. 

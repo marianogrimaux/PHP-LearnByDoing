@@ -104,7 +104,7 @@ You can find the code in /Practice/InheritanceExample1.php
 If you read carefully the example above, you may have noticed that all attributes in the example have the **Protected** 
 keyword.
 
-####Why?
+#### Why?
 
 When dealing with inheritance, we have access to 1 more access modifier from the one's that we already know. 
  

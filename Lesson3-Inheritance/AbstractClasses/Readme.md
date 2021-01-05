@@ -1,4 +1,4 @@
-#Abstract Classes
+# Abstract Classes
 
 Abstract classes have 2 main characteristics
 1. They cannot be instantiated directly.
@@ -95,7 +95,7 @@ Before continue take a look at AbstractClass1.php
 
 
 
-##Abstract methods
+## Abstract methods
 
 The idea of abstract methods is to declare behaviour in an abstract class without taking care about how
 the sub-classes are going to implement them. This concept comes very handy when designing a hierarchy and prepare our code
