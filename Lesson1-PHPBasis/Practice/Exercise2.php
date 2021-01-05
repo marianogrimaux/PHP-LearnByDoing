@@ -1,5 +1,5 @@
 <?php
-/*
+/**
  * We need to create a program that outputs the age of you and your 3 friends.
  *
  * The output should be the following:

@@ -1,6 +1,7 @@
 <?php
 
-/* E3 A)
+/**
+ * E3 A)
  *  We need to find Martin, and we have a list of people
  *  Once martin is found, we need to inform in which position of the list he was.
  *
@@ -13,7 +14,8 @@ $input = ["John","Mike","Adam","Richard","Martin","Sven"];
 
 
 
-/*E3 B)
+/**
+ * E3 B)
  *
  * There's a shop that needs to apply discounts to some products.
  * The discount amount varies depending on the category of the products:

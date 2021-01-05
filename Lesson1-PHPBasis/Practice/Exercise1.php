@@ -5,11 +5,11 @@
  *      1- Using double quotes.
  *      1- using single quotes.
  *
- *  the output should be: Hello world! my name is yourname.
+ *  the output should be: Hello world! my name is [your name].
  *
  *  hint: Use echo & check differences between single and double quotes in strings.
  *
  *  Commit your results in your fork.
  */
 
-$name = "";
+$name ='';

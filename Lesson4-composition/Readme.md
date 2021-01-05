@@ -61,4 +61,3 @@ The key to that answer is to think about the difference between "is" and "has".
 
 1. A Car has an Engine. (Composition)
 2. A Human is a Mammal, and a Mammal is an Animal. (Inheritance)
-

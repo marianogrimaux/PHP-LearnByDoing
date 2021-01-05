@@ -59,7 +59,6 @@ In order to run an instance of Mariano, we have to:
 2. The instance of the class is the object, the variable $mariano.
 3. The class Mariano has behaviour, it “knows” how to say Hello.
 
-
 **Some things about the sintax**
 
 * All classes names start with uppercase.
@@ -99,12 +98,10 @@ echo $mariano->sayHello();
 echo $mariano->sayHello();
 ```
 
-
 The problem with this code, is that none can make a difference between me and my friend Matu saying hello, 
 so a good improvement would be that our program can say “hello, my name is {name}”
  
 In order to do so, we are going to introduce the following concepts:
-
 
 2. Attributes: 
 - Are the “fields” that will hold the data for each instance of the class.
