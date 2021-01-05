@@ -104,7 +104,7 @@ Or
 ```php
     $var = 'foo'; 
 ```
-####Single quotes VS double quotes
+#### Single quotes VS double quotes
 
 If using single quotes, the string will be shown as is, this means that you cannot introduce variables directly to the 
 string. With double quotes, you can put varibles in the string sourrend by curly braces and they will be evaluated.
