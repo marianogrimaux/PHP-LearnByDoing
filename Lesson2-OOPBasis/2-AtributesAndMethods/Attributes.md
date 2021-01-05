@@ -52,7 +52,7 @@ class Greeter {
 Running this code will generate the same output as before, the only difference is that now all the instances
 of Greeter will have access to this variable.
 
-####Instance variables 
+## Instance variables 
 
 Instance variables are defined in the class, the only difference with class variables are that they can have different values 
 accross the instances of the class. 
