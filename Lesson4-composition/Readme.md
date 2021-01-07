@@ -1,9 +1,7 @@
 # Composition
 
-Composition is one of the fundamental concepts in object-oriented programming. 
-It describes a class that references one or more objects of other classes in instance variables. 
-By doing this, your objects will be related with others (Association), this means that they can communicate with each 
-other.
+Composition is one of the fundamental concepts in object-oriented programming. It is a way to combine objects or data types into more complex ones.
+The most common way to materialize composition is by desigining a class that will have other objects as attributes.
 
 You can find composition with real world examples, a car for example has  4 wheels, an engine, a number of seats etc. Each
 of these components have a specific purpose and a function.
@@ -61,3 +59,19 @@ The key to that answer is to think about the difference between "is" and "has".
 
 1. A Car has an Engine. (Composition)
 2. A Human is a Mammal, and a Mammal is an Animal. (Inheritance)
+
+
+## Class diagram 
+
+<div>
+<img src="Diagrams/Composition.png" width="500" height="300"/>
+</div>
+
+
+
+
+
+
+
+
+
