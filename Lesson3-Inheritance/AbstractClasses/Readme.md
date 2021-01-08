@@ -89,10 +89,7 @@ By declaring our class abstract we will not able to instantiate it directly. Let
     }
 }
 ```  
-
-Before continue take a look at AbstractClass1.php 
-
-
+Before continue take a look at [Abstract class example](./Practice/AbstractClass1.php)
 
 
 ## Abstract methods
@@ -155,5 +152,4 @@ Let's change our code so Animals implement abstract methods.
   }
 }
 ```  
-Please take a look at AbstractClass2.php 
-
+Before continue take a look at [Abstract class example](./Practice/AbstractClass2.php)
