@@ -66,12 +66,20 @@ function greet(Greeter $greeter)
 }
 ```
 
+### UML Class Diagram
+
+<div>
+<img src="Diagrams/Interfaces.jpeg" width="500" height="300"/>
+</div>
+
+
 ### Real world example
 
 Let's suppose that you have to log what's happening in your code and your company decided to have two different loggers
 
 1. A logger that will write an output in the console if you are in a development environment.
 2. A logger that will write the output to a file if you are in production mode.
+
 
 
 ```php
