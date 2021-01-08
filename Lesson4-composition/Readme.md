@@ -68,9 +68,11 @@ The key to that answer is to think about the difference between "is" and "has".
 </div>
 
 
-### Assositaion, Composition and Agreggation
+### Association, Composition and Agreggation
 
-1. Assositaion: When modeling a solution, if two classes needs to communicate with eachother, a link between those two classes should be represented.
+#### Association: 
+
+When modeling a solution, if two classes needs to communicate with eachother, a link between those two classes should be represented.
 
 <div>
 <img src="Diagrams/Association.jpeg" width="500" height="300"/>
@@ -81,7 +83,8 @@ A person feeds an animal.
 In this case, the way to represent agregation is with a line.
 
 
-2. Composition: Composition implies that that the weakest object cannot "live" in our model if the class that owns it does not exist. Think in this particular schemario.
+#### Composition 
+Composition implies that that the weakest object cannot "live" in our model if the class that owns it does not exist. Think in this particular schemario.
 
 <div>
 <img src="Diagrams/Compexample.jpeg" width="500" height="300"/>
@@ -92,14 +95,12 @@ In this case, a person can still live without a hand. But there wont be any reas
 The correct way of represeting this kind of link is with a black diamond.
 
 
-3. Agregation: Agregation differs from composition in one way: The object has a meaning in the model if it's not part of other.
+#### Agregation
+
+Agregation differs from composition in one way: The object has a meaning in the model if it's not part of other.
 
 <div>
 <img src="Diagrams/Aggregation.jpeg" width="500" height="300"/>
 </div>
 
 The correct way of represeting this kind of link is with a white diamond.
-
-
-
-
