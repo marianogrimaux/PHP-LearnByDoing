@@ -86,6 +86,8 @@ The correct way of represeting this kind of link is with a black diamond.
 
 3. Agregation: Agregation differs from composition in one way: The object has a meaning in the model if it's not part of other.
 
+<img src="Diagrams/Agregation.jpeg" width="500" height="300"/>
+</div>
 
 
 The correct way of represeting this kind of link is with a white diamond.
