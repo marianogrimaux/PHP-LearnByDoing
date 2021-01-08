@@ -153,8 +153,10 @@ Here is a example about how to represent a class in UML.
 ### Homework
 
 Please answer the questions for the files:
- - Lesson2Ex1.php, 
- - Lesson2Ex2.php  
- - Lesson2Ex3.php
+
+Before continue take a look at [Abstract class example](./Practice/AbstractClass1.php)
+ - [Lesson2Ex1.php](./Practice/Exercise1.php) 
+ - [Lesson2Ex2.php](./Practice/Exercise2.php)  
+ - [Lesson2Ex3.php](./Practice/Exercise3.php)
 
 After answering each question, commit them in your fork for this project. We'll revisit them in the following class.
